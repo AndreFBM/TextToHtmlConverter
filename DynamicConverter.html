@@ -380,18 +380,6 @@
             URL.revokeObjectURL(url);
         });
 
-        // Enhancing Multi-line (Column) Selection and Insertion
-        // CodeMirror 5 does not support Shift+Alt column selection out-of-the-box
-        // However, you can use multiple cursors via Ctrl/Cmd + Click
-        // The following code ensures that insertions apply to all cursors
-
-        // No additional code is needed as our insertAtAllCursors and wrapSelectionAtAllCursors functions handle multiple cursors
-
-        // Ensure that inserting UL/OL applies to all cursors
-        // Already handled by insertAtAllCursors function
-
-        // For deletion across all cursors, CodeMirror handles this automatically when using standard deletion keys
-
     </script>
 </body>
 </html>
